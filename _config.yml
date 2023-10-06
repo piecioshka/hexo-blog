@@ -14,7 +14,7 @@ timezone:
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: https://piecioshka.github.io/
-root: /moj-blog/
+root: /hexo-blog/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
@@ -82,7 +82,7 @@ deploy:
 
 theme_config:
   menu_title: Home
-  index_cover: /moj-blog/images/IMG_3502.jpg
+  index_cover: /hexo-blog/images/IMG_3502.jpg
   twitter_handle: piecioshka
 
   # Header
@@ -90,7 +90,7 @@ theme_config:
     Home: /
     Contact: /contact/
     Github:
-      url: https://github.com/piecioshka/moj-blog
+      url: https://github.com/piecioshka/hexo-blog
       icon: github
     Twitter:
       url: https://twitter.com/piecioshka
