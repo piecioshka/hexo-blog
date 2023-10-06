@@ -99,7 +99,7 @@ theme_config:
       url: https://youtube.com/piecioshka
       icon: youtube
     Facebook:
-      url: https://facebook.com/piecioshka
+      url: https://facebook.com/piecioshka.dev
       icon: facebook
 
   comments:
