@@ -13,8 +13,8 @@
     
 
     
-        <meta name="description" content="In this article we spend some time to describe what is IIFE and why eachjunior developer should know this as quick as he can.
-This is simple listing o">
+        <meta name="description" content="In this article we spend some time to describe what is IIFE [ifi] and why eachJunior Developer should know this as quick as he can.
+This is simple lis">
     
 
     <!--Author-->
@@ -29,8 +29,8 @@ This is simple listing o">
 
     <!--Open Graph Description-->
     
-        <meta property="og:description" content="In this article we spend some time to describe what is IIFE and why eachjunior developer should know this as quick as he can.
-This is simple listing o">
+        <meta property="og:description" content="In this article we spend some time to describe what is IIFE [ifi] and why eachJunior Developer should know this as quick as he can.
+This is simple lis">
     
 
     <!--Open Graph Site Name-->
@@ -141,7 +141,7 @@ This is simple listing o">
                     </li>
                 
                     <li>
-                        <a href="https://github.com/piecioshka/hexo-blog">
+                        <a href="https://github.com/piecioshka/">
                             
                                 <i class="fa fa-github fa-stack-2x"></i>
                             
@@ -234,10 +234,11 @@ This is simple listing o">
 
             <!-- Post Main Content -->
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <p>In this article we spend some time to describe what is IIFE and why each<br>junior developer should know this as quick as he can.</p>
+                <p>In this article we spend some time to describe what is <code>IIFE</code> <em>[ifi]</em> and why each<br>Junior Developer should know this as quick as he can.</p>
 <p>This is simple listing of JavaScript code:</p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">(<span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line"><span class="meta">    'use strict'</span>;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">function</span> <span class="title">foo</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">        <span class="built_in">console</span>.log(<span class="string">'bar'</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;)();</span><br></pre></td></tr></table></figure>
-<p>You can see that the whole code is wrapped by special function by brackets.<br>This syntax called <code>Imedietly Invoke Function Expression</code>, so <code>IIFE</code> <em>[ifi]</em> in<br>short way.</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">(<span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line"><span class="meta">    'use strict'</span>;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">function</span> <span class="title">foo</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">        <span class="built_in">console</span>.log(<span class="string">'bar'</span>);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    foo();</span><br><span class="line">&#125;)();</span><br></pre></td></tr></table></figure>
+<p>You can see that the whole code is wrapped by a function in round brackets,<br>and immediately invoked with another pair of round brackets.</p>
+<p>This syntax is called <code>Immediately Invoke Function Expression</code> - <code>IIFE</code></p>
 <h2 id="Pros"><a href="#Pros" class="headerlink" title="Pros"></a>Pros</h2><ul>
 <li>function wraps some code which could define variable, so it is defines in<br>  a local scope</li>
 <li>without any <em>module definition</em> variable define in global namespace,<br>  which is called <em>anti-pattern</em></li>
