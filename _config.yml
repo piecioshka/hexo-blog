@@ -4,7 +4,7 @@
 
 # Site
 title: piecioshka's blog
-subtitle: developer who try to be a blogger
+subtitle: A developer who is trying to be a blogger
 description:
 keywords:
 author: Piotr Kowalski
@@ -90,7 +90,7 @@ theme_config:
     Home: /
     Contact: /contact/
     Github:
-      url: https://github.com/piecioshka/hexo-blog
+      url: https://github.com/piecioshka/
       icon: github
     Twitter:
       url: https://twitter.com/piecioshka

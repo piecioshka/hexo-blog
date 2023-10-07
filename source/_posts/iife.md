@@ -6,8 +6,8 @@ tags:
     - javascript
 ---
 
-In this article we spend some time to describe what is IIFE and why each 
-junior developer should know this as quick as he can.
+In this article we spend some time to describe what is `IIFE` _[ifi]_ and why each
+Junior Developer should know this as quick as he can.
 
 This is simple listing of JavaScript code:
 
@@ -18,16 +18,19 @@ This is simple listing of JavaScript code:
     function foo() {
         console.log('bar');
     }
+
+    foo();
 })();
 ```
 
-You can see that the whole code is wrapped by special function by brackets.
-This syntax called `Imedietly Invoke Function Expression`, so `IIFE` _[ifi]_ in
-short way.
+You can see that the whole code is wrapped by a function in round brackets,
+and immediately invoked with another pair of round brackets.
+
+This syntax is called `Immediately Invoke Function Expression` - `IIFE`
 
 ## Pros
 
-- function wraps some code which could define variable, so it is defines in 
+- function wraps some code which could define variable, so it is defines in
     a local scope
 - without any _module definition_ variable define in global namespace,
     which is called _anti-pattern_

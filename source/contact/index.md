@@ -2,8 +2,5 @@
 title: Contact
 ---
 
-If you would like to contact me try use Twitter platform.
-My nick is [@piecioshka][handle]
-
-
-[handle]: https://twitter.com/piecioshka
+If you want to contact me, use Twitter platform.
+My handle is [@piecioshka](https://twitter.com/piecioshka)

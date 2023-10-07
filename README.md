@@ -14,6 +14,12 @@ git submodule update
 npx hexo serve
 ```
 
+## Deployment
+
+```bash
+npm run deploy
+```
+
 ## Polish articles
 
 - https://piecioshka.pl/blog/2018/05/27/jak-zalozyc-bloga-korzystajac-z-hexo.html
