@@ -1,6 +1,7 @@
 {
   "name": "hexo-blog",
   "version": "0.0.0",
+  "license": "MIT",
   "private": true,
   "hexo": {
     "version": "3.9.0"

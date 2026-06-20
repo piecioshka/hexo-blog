@@ -30,3 +30,7 @@ npm run deploy
 ## Required Node.js version
 
 - https://hexo.io/docs/#Required-Node-js-version
+
+## License
+
+[The MIT License](http://piecioshka.mit-license.org) @ 2026
